@@ -32,11 +32,18 @@ export http_proxy=http://[username]:[Password]@[IP]:[Port]/
 export https_proxy=http://[username]:[Password]@[IP]:[Port]/
 ```
 ### Enviroment permanently and system wide
-
 Edit the enviroment file with `nano /etc/environment` and add:
 ```
 HTTP_PROXY="http://[username]:[Password]@[IP]:[Port]/"
 HTTPS_PROXY="http://[username]:[Password]@[IP]:[Port]/"
+```
+
+### WGet
+Edit the wgetrc file with `nano /etc/wgetrc` and insert:
+```
+http_proxy=http://[username]:[Password]@[IP]:[Port]/
+http_proxys=http://[username]:[Password]@[IP]:[Port]/
+use_proxy = on
 ```
 ## NodeJS (NPM)
 ```
