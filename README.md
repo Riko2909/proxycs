@@ -10,7 +10,11 @@ Some of these settings aren't tested yet. Please give some Feedback under **ISSU
 |---|---|---|---|
 | jerry  | PassWord123  | 172.56.230.11  | 3128  |
 
-
+## Windows
+### WinHTTP Proxy
+To show the current proxy configuration, type `netsh winhttp show proxy` in your console.
+To change these settings, use:
+`netsh winhttp set proxy "[IP]:[Port]" bypass-list="172.*,example.com,<local>"`
 
 ## Linux
 ### Apt Proxy
