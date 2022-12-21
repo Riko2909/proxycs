@@ -87,3 +87,22 @@ Flush changes and restart Docker
 sudo systemctl daemon-reload
 sudo systemctl restart docker
 ```
+## Gradle
+Edit the file `gradle.properties` and add:
+
+**HTTP-Proxy**
+```
+systemProp.http.proxyHost=[IP]
+systemProp.http.proxyPort=[Port]
+systemProp.http.proxyUser=[username]
+systemProp.http.proxyPassword=[Password]
+systemProp.http.nonProxyHosts=localhost|127.0.0.1
+```
+**HTTPS-Proxy**
+```
+systemProp.https.proxyHost=[IP]
+systemProp.https.proxyPort=[Port]
+systemProp.https.proxyUser=[username]
+systemProp.https.proxyPassword=[Password]
+systemProp.https.nonProxyHosts=localhost|127.0.0.1
+```
