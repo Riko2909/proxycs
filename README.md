@@ -1,6 +1,17 @@
 
 # Proxy Cheat Sheet for some Services with credentials
 
+> **Note**
+Some of these settings aren't tested yet. Please give some Feedback under **ISSUES**. 
+
+**Usage (*example*)**
+
+| [username]  | [Password]  | [IP]  | [Port]  |
+|---|---|---|---|
+| jerry  | PassWord123  | 172.56.230.11  | 3128  |
+
+
+
 ## Linux
 ### Apt Proxy
 First edit/create an configfile with `nano /etc/apt/apt.conf.d/proxy.conf` and add:
