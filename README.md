@@ -10,6 +10,8 @@ Some of these settings aren't tested yet. Please give some Feedback under **ISSU
 |---|---|---|---|
 | jerry  | PassWord123  | 172.56.230.11  | 3128  |
 
+**Note:** If the password contains any special character then that needs to be configured as `%<hex_value_of_special_char>`. You may use [this](https://www.online-toolz.com/tools/text-hex-convertor.php) Website to convert your characters.
+
 ## Windows
 ### WinHTTP Proxy
 To show the current proxy configuration, type `netsh winhttp show proxy` in your console.
