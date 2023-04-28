@@ -39,6 +39,9 @@ Edit the enviroment file with `nano /etc/environment` and add:
 HTTP_PROXY="http://[username]:[Password]@[IP]:[Port]/"
 HTTPS_PROXY="http://[username]:[Password]@[IP]:[Port]/"
 ```
+#### Programs that use the enviroment proxy
+- cURL
+- ...
 
 ### WGet
 Edit the wgetrc file with `nano /etc/wgetrc` and insert:
